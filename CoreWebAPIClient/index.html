@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Core Web API Client</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form id="itemForm">
+            <label for="itemInput">Item Value: </label>
+            <input id="itemInput" type="text">
+            <button>Add Value</button>
+        </form>
+    </div>
+    <div class="list-container">
+        <label for="activeOnlyCheckbox">Include Active User Only</label>
+            <input id="activeOnlyCheckbox" type="checkbox">
+        <ul id="itemList">
+            <!-- Items will go here... -->
+        </ul>
+        <button type="button" id="testButton">Refresh</button>
+    </div>
+    <div id="errorContainer" class="error-container">
+        <div id="errorField"></div>
+
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

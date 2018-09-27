@@ -1,0 +1,20 @@
+.form-container {
+    padding: 25px
+}
+.list-container {
+width: 500px;
+}
+
+#testButton {
+    position: relative;
+    left: 292px;
+    bottom: 10px;
+}
+
+.error-container {
+    visibility: hidden;
+    padding: 25px;
+    background-color: #a80808;
+    color: white;
+    font-weight: bold;
+}
